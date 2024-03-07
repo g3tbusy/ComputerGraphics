@@ -1,0 +1,115 @@
+<properties>
+    <lwjgl.version>3.3.3</lwjgl.version>
+    <joml.version>1.10.5</joml.version>
+    <lwjgl3-awt.version>0.1.8</lwjgl3-awt.version>
+    <steamworks4j.version>1.9.0</steamworks4j.version>
+    <steamworks4j-server.version>1.9.0</steamworks4j-server.version>
+    <lwjgl.natives>natives-windows</lwjgl.natives>
+</properties>
+
+<dependencyManagement>
+<dependencies>
+    <dependency>
+        <groupId>org.lwjgl</groupId>
+        <artifactId>lwjgl-bom</artifactId>
+        <version>${lwjgl.version}</version>
+        <scope>import</scope>
+        <type>pom</type>
+    </dependency>
+</dependencies>
+</dependencyManagement>
+
+<dependencies>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-assimp</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-bgfx</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-glfw</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-nanovg</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-nuklear</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-openal</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-opengl</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl</artifactId>
+    <classifier>${lwjgl.natives}</classifier>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-assimp</artifactId>
+    <classifier>${lwjgl.natives}</classifier>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-bgfx</artifactId>
+    <classifier>${lwjgl.natives}</classifier>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-glfw</artifactId>
+    <classifier>${lwjgl.natives}</classifier>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-nanovg</artifactId>
+    <classifier>${lwjgl.natives}</classifier>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-nuklear</artifactId>
+    <classifier>${lwjgl.natives}</classifier>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-openal</artifactId>
+    <classifier>${lwjgl.natives}</classifier>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-opengl</artifactId>
+    <classifier>${lwjgl.natives}</classifier>
+</dependency>
+<dependency>
+    <groupId>org.joml</groupId>
+    <artifactId>joml</artifactId>
+    <version>${joml.version}</version>
+</dependency>
+<dependency>
+    <groupId>org.lwjglx</groupId>
+    <artifactId>lwjgl3-awt</artifactId>
+    <version>${lwjgl3-awt.version}</version>
+</dependency>
+<dependency>
+    <groupId>com.code-disaster.steamworks4j</groupId>
+    <artifactId>steamworks4j</artifactId>
+    <version>${steamworks4j.version}</version>
+</dependency>
+<dependency>
+    <groupId>com.code-disaster.steamworks4j</groupId>
+    <artifactId>steamworks4j-server</artifactId>
+    <version>${steamworks4j-server.version}</version>
+</dependency>
+</dependencies>
